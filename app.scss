@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#RightWheelCross,
+#LeftWheelCross {
+  fill: #531cb3;
+}
+#wholeWord,
+.cartWithoutWheels {
+  fill: #d2e0bf;
+}
+.letter {
+  &K {
+    font-size: 35.96px;
+    letter-spacing: -0.02em;
+    fill: #531cb3;
+  }
+  &M {
+    font-size: 81.72px;
+    letter-spacing: -0.02em;
+  }
+  &R {
+    letter-spacing: -0.03em;
+  }
+  &T {
+    letter-spacing: -0.02em;
+  }
+}
+.text {
+  font-family: PittsbrookOutline-Italic, Pittsbrook Outline;
+  font-style: italic;
+}
+.wordMart {
+  font-size: 81.74px;
+  letter-spacing: -0.02em;
+}
+.logo {
+  font-family: "Alatsi", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #531cb3;
+  svg {
+    width: 50%;
+    height: 50%;
+  }
+  .logoText {
+    font-size: 81px;
+    span {
+      font-size: 105px;
+    }
+  }
+}

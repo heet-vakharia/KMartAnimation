@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#RightWheelCross,
+#LeftWheelCross {
+  fill: #531cb3;
+}
+
+#wholeWord,
+.cartWithoutWheels {
+  fill: #d2e0bf;
+}
+
+.letterK {
+  font-size: 35.96px;
+  letter-spacing: -0.02em;
+  fill: #531cb3;
+}
+
+.letterM {
+  font-size: 81.72px;
+  letter-spacing: -0.02em;
+}
+
+.letterR {
+  letter-spacing: -0.03em;
+}
+
+.letterT {
+  letter-spacing: -0.02em;
+}
+
+.text {
+  font-family: PittsbrookOutline-Italic, Pittsbrook Outline;
+  font-style: italic;
+}
+
+.wordMart {
+  font-size: 81.74px;
+  letter-spacing: -0.02em;
+}
+
+.logo {
+  font-family: "Alatsi", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #531cb3;
+}
+
+.logo svg {
+  width: 50%;
+  height: 50%;
+}
+
+.logo .logoText {
+  font-size: 81px;
+}
+
+.logo .logoText span {
+  font-size: 105px;
+}
+/*# sourceMappingURL=app.css.map */
